@@ -206,6 +206,16 @@ main {
   margin-left: 25px;
 }
 
+.subgroup h4 {
+ font-size: 1.3em;
+ margin-left: 40px;
+}
+
+span.small {
+  font-size: .75em;
+  font-weight: normal;
+}
+
 .subgroup .hidden {
   display: none;
 }
@@ -220,8 +230,9 @@ main {
 .card h4 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1.3em;
+  margin-left: 0;
 }
+
 
 .card p {
   margin-bottom: 0;
