@@ -120,6 +120,10 @@ body, p {
   display: none;
 }
 
+.disabled {
+  display: none;
+}
+
 a, h2 a, h3 a, h4 a {
   color: black;
 }

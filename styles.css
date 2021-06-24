@@ -77,10 +77,6 @@ span.small {
   font-weight: normal;
 }
 
-.subgroup .hidden {
-  display: none;
-}
-
 .card {
   margin: 25px;
   padding: 15px;
