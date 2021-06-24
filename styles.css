@@ -97,7 +97,7 @@ span.small {
 }
 
 footer {
-  margin: 250px 100px 25px 100px;
+  margin: 250px 100px 0px 100px;
   padding: 25px;
   min-width: 60%;
 }
@@ -105,6 +105,7 @@ footer {
 .colophon {
   padding-left: 100px;
   padding-right: 100px;
+  margin-bottom: 0px;
 }
 
 .colophon h3 {
