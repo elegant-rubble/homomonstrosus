@@ -52,10 +52,14 @@ main {
 
 .copy {
   margin-left: 25px;
-  padding: 15px;
+  padding: 25px;
   background-color: white;
   border-left: 5px solid #FEB729;
   line-height: 1.5;
+}
+
+p.copy {
+  padding: 50px;
 }
 
 .copy ul {
@@ -79,7 +83,7 @@ span.small {
 
 .card {
   margin: 25px;
-  padding: 15px;
+  padding: 25px;
   background-color: white;
   border-left: 5px solid #FEB729;
 }
