@@ -173,7 +173,7 @@ footer section {
   }
 
   .group {
-    margin: 25px;
+    margin: 10px;
     padding: 15px 5px;
   }
 
@@ -193,10 +193,12 @@ footer section {
   }
 
   footer h2 {
+    font-size: 1.5em;
     margin-top: 150px;
   }
 
   footer h3 {
+    font-size: .9em;
     margin-top: 25px;
   }
 
@@ -210,6 +212,10 @@ footer section {
 
   .colophon {
     padding: 0;
+  }
+
+  .colophon .colors {
+    max-width: 100%;
   }
 
 }
