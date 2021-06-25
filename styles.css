@@ -131,7 +131,7 @@ footer h2 {
   text-align: center;
   padding-bottom: 5px;
   border-bottom: 1px solid #292A28;
-  font-size: 2.25em;
+  font-size: 2em;
 }
 
 footer section {
@@ -158,53 +158,58 @@ footer section {
   font-size: 1.25em;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1024px) {
   header h1 {
-    font-size: 3em;
-  }
-
-  .group, .subgroup {
-    margin: 25px 5px;
-    padding: 5px;
-  }
-
-  .copy, .card {
-    margin: 15px 5px;
-  }
-
-  .subgroup h3 {
-    font-size: 2em;
-  }
-
-  .group h2 {
     font-size: 2.5em;
   }
 
-  footer {
-    margin: 250px 5px 25px 5px;
-    padding: 5px;
-  }
-
-  footer section {
-    margin: 25px 5px 250px 5px;
-
-  }
-
-  footer h3 {
+  header p {
     font-size: 1em;
   }
 
+  main {
+    margin: 50px 0;
+    width: 100%;
+  }
+
+  .group {
+    margin: 25px;
+    padding: 15px 5px;
+  }
+
+  .subgroup {
+    margin: 0;
+  }
+
+  p.copy, div.card {
+    margin: 25px 5px;
+    padding: 25px;
+  }
+
+  footer {
+    margin: 150px 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  footer h2 {
+    margin-top: 150px;
+  }
+
+  footer h3 {
+    margin-top: 25px;
+  }
+
+  footer .changelog p {
+    margin-left: 25px;
+  }
+
+  footer section {
+    margin: 25px 10px;
+  }
+
   .colophon {
-    padding: 15px;
-  }
-
-  .colophon .colors {
-    max-width: 100%;
-  }
-
-  .changelog p {
-    margin-left: 10px;
-
+    padding: 0;
   }
 
 }
