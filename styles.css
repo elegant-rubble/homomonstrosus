@@ -25,8 +25,10 @@ header p {
   display: flex;
   justify-content: center;
 }
+
 main {
   width: 70%;
+  max-width: 1200px;
   margin: 25px 5px;
   border-left: 5px solid #FF006E;
   background-color: white;
@@ -101,7 +103,8 @@ span.small {
 }
 
 footer {
-  margin: 250px 100px 0px 100px;
+  max-width: 1200px;
+  margin-top: 250px;
   padding: 25px;
   min-width: 60%;
 }
