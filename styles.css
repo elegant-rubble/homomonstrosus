@@ -52,6 +52,10 @@ main {
   border: 1px solid #fafcff;
 }
 
+.content-item {
+  margin-bottom: 35px;
+}
+
 .copy {
   margin-left: 25px;
   padding: 25px;
@@ -73,13 +77,12 @@ p.copy {
   margin-left: 25px;
 }
 
-
 .subgroup h4 {
  font-size: 1.3em;
- margin-left: 40px;
+ margin-bottom: 10px;
 }
 
-.subgroup h4 .subhead {
+.subhead {
   font-weight: normal;
 }
 
@@ -105,14 +108,21 @@ span.small {
   margin-left: 0;
 }
 
-
 .card p {
   margin-bottom: 0;
   padding-left: 10px;
 }
 
-.card .byline {
+.content-item .byline {
   font-style: italic;
+  margin-left: 15px;
+}
+
+h5.essay {
+  font-size: 1.1em;
+  font-style: italic;
+  margin-left: 15px;
+  margin-top: 15px;  
 }
 
 footer {
