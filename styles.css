@@ -139,7 +139,7 @@ h5.essay {
 
 footer {
   max-width: 1200px;
-  margin-top: 250px;
+  margin-top: 150px;
   padding: 25px;
   min-width: 60%;
 }
@@ -177,7 +177,7 @@ footer h2 {
 }
 
 footer section {
-  margin: 25px 50px 250px 50px;
+  margin: 25px 50px 150px 50px;
 }
 
 .changelog h3 {
