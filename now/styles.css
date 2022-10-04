@@ -75,3 +75,31 @@ footer {
   margin-left: 25px;
   margin-right: 25px;
 }
+
+@media screen and (max-width: 1024px) {
+
+  body {
+    padding: 10px;
+  }
+
+  header {
+    margin: 50px 15px;
+    width: 95%;
+  }
+
+  header .date {
+    text-align: left;
+  }
+
+  main {
+    width: 100%
+  }
+
+  article {
+    padding: 0 25px;
+  }
+
+  article blockquote {
+    margin: 25px;
+  }
+}
