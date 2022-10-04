@@ -160,6 +160,16 @@ footer {
   margin: 0;
 }
 
+.colophon h5 {
+  font-size: 1.75em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.colophon h5 code {
+  font-weight: normal;
+}
+
 .colophon .colors {
   width: 500px;
   font-family: monospace;
