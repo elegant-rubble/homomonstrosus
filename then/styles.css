@@ -84,6 +84,12 @@ article hr {
   padding-bottom:  7px;
 }
 
+.foot-nav {
+  margin-top: 25px;
+  text-align: center;
+  font-size: .8em;
+  font-style: italic;
+}
 
 footer {
   border-top: 1px solid #292A28;
