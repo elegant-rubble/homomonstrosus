@@ -73,9 +73,18 @@ p.copy {
   margin-left: 25px;
 }
 
+
 .subgroup h4 {
  font-size: 1.3em;
  margin-left: 40px;
+}
+
+.subgroup h4 .subhead {
+  font-weight: normal;
+}
+
+.subgroup h4 a {
+  font-weight: bold;
 }
 
 span.small {
@@ -100,6 +109,10 @@ span.small {
 .card p {
   margin-bottom: 0;
   padding-left: 10px;
+}
+
+.card .byline {
+  font-style: italic;
 }
 
 footer {
