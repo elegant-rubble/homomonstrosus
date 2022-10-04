@@ -216,6 +216,10 @@ footer section {
 }
 
 @media screen and (max-width: 1024px) {
+  body {
+    padding: 10px;
+  }
+
   header h1 {
     font-size: 2.5em;
   }
@@ -238,10 +242,15 @@ footer section {
     margin: 0;
   }
 
-  p.copy, div.card {
+  .copy, .card {
     margin: 25px 5px;
     padding: 25px;
   }
+
+  .byline {
+    font-size: .9em
+   }
+
 
   footer {
     margin: 150px 0;
