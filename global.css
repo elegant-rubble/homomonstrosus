@@ -56,8 +56,6 @@ body {
   font-family: 'Lora', serif;
 }
 
-
-
 body, p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -98,7 +96,6 @@ body, p {
 .mono_4 {
   background-color: #fafcff;
 }
-
 
 .label_good {
   padding: 4px;
