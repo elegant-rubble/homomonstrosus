@@ -49,6 +49,15 @@ article p, article blockquote {
   line-height: 1.35;
 }
 
+article h3 {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+article p {
+  margin: 10px;
+}
+
 article .section_title {
   margin-top: 50px;
   margin-bottom: 10px;
