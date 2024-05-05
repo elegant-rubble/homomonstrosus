@@ -137,6 +137,10 @@ h5.essay {
   font-style: italic;
 }
 
+span.email b {
+	display: none;
+}
+
 .changelog .go_to_top p {
   margin-left: 0;
   font-family: 'Lora', serif;
