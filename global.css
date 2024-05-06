@@ -133,6 +133,9 @@ h2, h3, h4 {
 
 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
   background-color: #00E8FC;
+  font-weight: bold;
+  text-decoration: none;
+
 }
 
 a:visited, h2 a:visited, h3 a:visited, h4 a:visited {
