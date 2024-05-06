@@ -82,8 +82,16 @@ article blockquote {
 
 }
 
-article hr {
-  margin: 50px 100px;
+hr {
+  border: none;
+	text-align: center;
+}
+
+
+hr::before {
+	content: "•••••";
+	display: block;
+	color: #292A28;
 }
 
 .status_footer {
@@ -101,7 +109,6 @@ article hr {
 .foot_nav {
   margin-top: 25px;
   text-align: center;
-  font-size: .8em;
   font-style: italic;
 }
 
