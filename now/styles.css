@@ -18,6 +18,12 @@ header .title {
   margin-bottom: 5px;
 }
 
+.about code {
+  font-weight: bold;
+  font-size: 1.25em;
+  font-style: normal;
+}
+
 header .date {
   font-style: italic;
   text-align: right;
@@ -29,7 +35,6 @@ header .about {
   margin-left: 25px;
   font-weight: normal;
   font-style: italic;
-
 }
 
 header .notes {
@@ -65,12 +70,16 @@ article .section_title {
 }
 
 article blockquote {
-  border-left: 5px #6F726E solid;
+  border-left: 7px #FEB729 solid;
   margin-top:  25px;
   margin-bottom:  25px;
   margin-left:  50px;
   padding-left:  25px;
+  padding-top:  7px;
+  padding-bottom:  7px;
   font-style: italic;
+  background-color: #ffffff;
+
 }
 
 article hr {
@@ -78,13 +87,15 @@ article hr {
 }
 
 .status_footer {
-  border-left: 5px #6F726E solid;
+  border-left: 7px #FEB729 solid;
   margin-top:  50px;
   margin-bottom:  50px;
   margin-left:  25px;
   padding-left:  25px;
   padding-top:  7px;
   padding-bottom:  7px;
+  background-color: #ffffff;
+
 }
 
 .foot_nav {
