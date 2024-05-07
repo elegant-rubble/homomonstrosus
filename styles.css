@@ -77,6 +77,11 @@ main {
   margin: 0;
 }
 
+a.signature {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .subgroup h3 {
   font-size: 1.5em;
   margin-left: 25px;
